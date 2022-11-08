@@ -24,8 +24,6 @@ THEN I exit the application, and the HTML is generated
 
 ## Table of Contents (Optional)
 
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
@@ -33,25 +31,17 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## Installation
 
-What are the steps required to install your project? Inquirer and Jest
+Inquirer and Jest are required for the Team Profile Generator.
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+Team-Profile-Generator/Sample HTML/Team Profile.html
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+https://drive.google.com/file/d/1t98g1hbCMbEM6gMebBroW76cVNkNQMT8/view
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+No other collaborators. 
 
 ## License
 
