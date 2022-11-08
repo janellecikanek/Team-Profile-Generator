@@ -5,18 +5,25 @@
 // getRole() // Overridden to return 'Manager'
 // xcan get office number via getOffice()
 
-thoughts from employee test
- // const employeeName = new employeeName
-        // expect(Employee).toEqual([]);
-        // expect(getRole).toReturn("Employee");
-        // expect(getMail).toReturn("email")
-        // expect(getId).toReturn("id")
-        // expect(getName).toReturn("name")
+// thoughts from employee test
+ // xconst employeeName = new employeeName
+        // xexpect(Employee).toEqual([]);
+        // xexpect(getRole).toReturn("Employee");
+        // xexpect(getMail).toReturn("email")
+        // xexpect(getId).toReturn("id")
+        // xexpect(getName).toReturn("name")
 
-        // expect(Employee([Bob, 1, bob@gmail.com])).toBe("Bob", 1, "bob@gmail.com");
+        // xexpect(Employee([Bob, 1, bob@gmail.com])).toBe("Bob", 1, "bob@gmail.com");
 
 
-// const result = new Employee()
-// return new Employee;
+// xconst result = new Employee()
+// xreturn new Employee;
 
 //        xexpect getName()return.this.name;
+
+it("checks if all employees have an name", () => {
+        const name = "Tim"
+        const employee = new Employee(name);
+            expect(employee.name).toEqual(expect.any(String));
+            expect(employee.getName()).toBe(name);
+    });
