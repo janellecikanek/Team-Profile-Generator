@@ -1,4 +1,13 @@
-// xIn addition to Employee's properties and methods, Engineer will also have:
-// xgithub // GitHub username - can set Github account via constructor agrument
-// xgetGithub()  can get github username via getGithub()
-// xgetRole() // Overridden to return 'Engineer' 
+const Engineer = require("../lib/engineer");
+
+test("checks if engineer has github", () => {
+    const github = bob/github
+    const engineer = new Engineer(github);
+	expect(engineer.github).toBe(expect.any(String));
+	expect(engineer.getGithub()).toBe(String);
+});
+
+it("checks if returns Engineer role", () => {
+    const engineer = new Engineer('Bob', 1, 'bob@email.com', 'bob/github');
+	expect(engineer.getRole()).toEqual("Engineer");
+});

@@ -1,8 +1,13 @@
-// xIn addition to Employee's properties and methods, Intern will also have:
+const Intern = require("../lib/intern");
 
-// xschool - can set school via constructor
-// xgetSchool() can get school via getSchool()
-// xgetRole() // Overridden to return 'Intern'
+test("checks if intern has school", () => {
+    const school = UofM
+    const intern = new Intern(school);
+	expect(intern.school).toBe(expect.any(String));
+	expect(intern.getSchool()).toBe(String);
+});
 
-xexpect("getSchool").toEqual(true)
-xexpect(getRole).toEqual(Intern)
+it("checks if returns Intern role", () => {
+    const intern = new Intern('Bob', 1, 'bob@email.com', 'UofM');
+	expect(intern.getRole()).toEqual("Intern");
+});
